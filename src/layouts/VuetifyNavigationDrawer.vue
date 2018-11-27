@@ -1,8 +1,5 @@
 <template>
-  <v-navigation-drawer
-    app
-    v-model="drawer"
-  >
+  <v-navigation-drawer app v-model="drawer">
     <navigation-route-list></navigation-route-list>
   </v-navigation-drawer>
 </template>
